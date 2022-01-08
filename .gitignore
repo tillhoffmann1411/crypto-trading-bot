@@ -1,0 +1,9 @@
+# Secrets
+.env
+
+
+# Virtual environment
+venv
+
+# Others
+.DS_Store
