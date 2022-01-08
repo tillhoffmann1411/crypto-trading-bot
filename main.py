@@ -77,6 +77,7 @@ def on_close(ws, close_status_code, close_msg):
 def on_error(ws, error):
     print('error: ' + str(error))
 
+
 if __name__ == "__main__":
     ws = websocket.WebSocketApp(SOCKET,
                               on_open=on_open,
