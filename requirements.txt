@@ -3,3 +3,4 @@ config
 numpy
 websocket-client
 python-dotenv
+pyyaml
