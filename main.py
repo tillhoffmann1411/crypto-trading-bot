@@ -46,9 +46,7 @@ def on_open(ws):
     print('Traded quantity: {}'.format(TRADE_QUNATITY))
     
 def on_message(ws, message):
-    global closes, in_position
-    print('received message')
-    
+    global closes, in_position 
     json_msg = json.loads(message)    
     candle = json_msg['k']
     is_candle_closed = candle['x']
