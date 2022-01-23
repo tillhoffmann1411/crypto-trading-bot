@@ -7,3 +7,4 @@ venv
 
 # Others
 .DS_Store
+logs
